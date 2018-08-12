@@ -1,0 +1,87 @@
+
+$lightBlue: rgb(64, 201, 255);
+$darkerBlue: #15a5d1c4;
+
+@mixin smallStuff {
+    @media only screen and (max-width: 480px){
+        @content;
+    }
+}
+@mixin bigStuff {
+    @media only screen and (min-width: 1100px){
+        @content;
+    }
+}
+
+.group::before,
+.group::after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+/* Bounce Animation */
+@-webkit-keyframes fadeBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  60% {
+    transform: translateY(6px);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  85% {
+    transform: translateY(3px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+
+  40% {
+    transform: translateY(0);
+  }
+
+  55% {
+    transform: translateY(6px);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  85% {
+    transform: translateY(3px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* End Bounce Animation */

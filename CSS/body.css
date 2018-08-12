@@ -1,0 +1,114 @@
+.group::before,
+.group::after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+/* Bounce Animation */
+@-webkit-keyframes fadeBounce {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(200%);
+            transform: translateY(200%);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  60% {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+  }
+  70% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  85% {
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fadeBounce {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(200%);
+            transform: translateY(200%);
+  }
+  40% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  55% {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+  }
+  70% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  85% {
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+/* End Bounce Animation */
+.main-area {
+  opacity: 0;
+  animation: fadeBounce 2s forwards;
+  -webkit-animation: fadeBounce 2s forwards;
+  animation-delay: .5s;
+  -webkit-animation-delay: .5s;
+  padding: 20px 30px;
+  width: 66%;
+  float: left;
+  padding-right: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sidebar {
+  animation: fadeBounce 2s forwards;
+  -webkit-animation: fadeBounce 2s forwards;
+  width: 34%;
+  float: left;
+  padding: 20px 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 85%;
+}
+
+.meImage {
+  position: relative;
+}
+
+.meImage img {
+  line-height: 200px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  width: 80%;
+  height: auto;
+  margin: 0;
+}
+/*# sourceMappingURL=body.css.map */

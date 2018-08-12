@@ -1,0 +1,45 @@
+@import 'mixins';
+html {
+    font-size: 1em;
+    @include smallStuff {
+        font-size: .9em;
+    }
+    @include bigStuff {
+        font-size: 1.4em;
+        line-height: 1.35;
+    }
+    color: rgba($color: #000000, $alpha: .8);
+}
+
+div.tangerine {
+    h2 {
+        font-family: "Tangerine", serif;
+        font-size: 2em;
+        font-weight: normal;
+        margin: 0;
+    }
+    h1 {
+        font-family: "Tangerine", serif;
+        font-size: 3em;
+        font-weight: normal;
+    }
+}
+body {
+    margin: 0;
+}
+.container { 
+
+    max-width: 1920px;
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+    align-content: center;
+}
+
+@import 'header';
+@import 'body';
+
+footer {
+    font-size: .8em;
+    text-align: center;
+}

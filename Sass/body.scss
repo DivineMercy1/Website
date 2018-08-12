@@ -1,0 +1,36 @@
+@import 'mixins';
+
+.main-area {
+    opacity: 0;
+    animation: fadeBounce 2s forwards;
+    -webkit-animation: fadeBounce 2s forwards;
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+    padding: 20px 30px;
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    animation: fadeBounce 2s forwards;
+    -webkit-animation: fadeBounce 2s forwards;
+    width: 34%;
+    float: left;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+}
+
+.meImage {
+    position: relative;
+    img {
+        line-height: 200px;
+        margin-bottom: 40px;
+        border-radius: 50%;
+        width: 80%;
+        height: auto;
+        margin: 0;
+    }
+}
