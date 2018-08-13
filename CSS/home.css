@@ -110,11 +110,17 @@ div.tangerine h1 {
 
 div.tangerine p {
   font-family: "Source Code Pro", serif;
-  font-size: .8em;
+  font-size: 1em;
   font-weight: normal;
 }
 
 div.tangerine a {
+  font-family: "Source Code Pro", serif;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+div.tangerine li {
   font-family: "Source Code Pro", serif;
   font-size: 1em;
   font-weight: normal;
