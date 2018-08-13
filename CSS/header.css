@@ -99,7 +99,7 @@ header nav li {
   text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 700px) {
   header nav li {
     float: none;
     margin-right: 0;

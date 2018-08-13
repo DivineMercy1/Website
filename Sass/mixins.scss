@@ -3,7 +3,7 @@ $lightBlue: rgb(64, 201, 255);
 $darkerBlue: #15a5d1c4;
 
 @mixin smallStuff {
-    @media only screen and (max-width: 480px){
+    @media only screen and (max-width: 700px){
         @content;
     }
 }

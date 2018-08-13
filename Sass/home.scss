@@ -2,7 +2,7 @@
 html {
     font-size: 1em;
     @include smallStuff {
-        font-size: .9em;
+        font-size: 1em;
     }
     @include bigStuff {
         font-size: 1.4em;
@@ -39,11 +39,12 @@ div.tangerine {
         font-weight: normal;
     }
 }
+
 body {
     margin: 0;
 }
-.container { 
 
+.container {
     max-width: 1920px;
     box-sizing: border-box;
     margin: 0;
@@ -53,7 +54,6 @@ body {
 
 @import 'header';
 @import 'body';
-
 footer {
     font-size: .8em;
     text-align: center;

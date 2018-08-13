@@ -10,6 +10,10 @@
     float: left;
     padding-right: 40px;
     box-sizing: border-box;
+    @include smallStuff {
+        width: auto;
+        float: none;
+    }
 }
 
 .sidebar {
@@ -19,6 +23,10 @@
     float: left;
     padding: 20px 40px;
     box-sizing: border-box;
+    @include smallStuff {
+        width: auto;
+        float: none;
+    }
 }
 
 .meImage {

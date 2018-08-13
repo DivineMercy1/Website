@@ -90,6 +90,13 @@
           box-sizing: border-box;
 }
 
+@media only screen and (max-width: 700px) {
+  .main-area {
+    width: auto;
+    float: none;
+  }
+}
+
 .sidebar {
   animation: fadeBounce 2s forwards;
   -webkit-animation: fadeBounce 2s forwards;
@@ -98,6 +105,13 @@
   padding: 20px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+  .sidebar {
+    width: auto;
+    float: none;
+  }
 }
 
 .meImage {
@@ -139,7 +153,7 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 700px) {
   .contactIcons li {
     float: none;
     margin-right: 0;
@@ -178,7 +192,7 @@
   font-weight: normal;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 700px) {
   .aboutList li {
     float: none;
     margin-right: 0;

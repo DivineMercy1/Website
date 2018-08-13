@@ -82,9 +82,9 @@ html {
   color: rgba(0, 0, 0, 0.8);
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 700px) {
   html {
-    font-size: .9em;
+    font-size: 1em;
   }
 }
 
@@ -243,7 +243,7 @@ header nav li {
   text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 700px) {
   header nav li {
     float: none;
     margin-right: 0;
@@ -389,6 +389,13 @@ header nav ul::after,
           box-sizing: border-box;
 }
 
+@media only screen and (max-width: 700px) {
+  .main-area {
+    width: auto;
+    float: none;
+  }
+}
+
 .sidebar {
   animation: fadeBounce 2s forwards;
   -webkit-animation: fadeBounce 2s forwards;
@@ -397,6 +404,13 @@ header nav ul::after,
   padding: 20px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+  .sidebar {
+    width: auto;
+    float: none;
+  }
 }
 
 .meImage {
@@ -438,7 +452,7 @@ header nav ul::after,
   text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 700px) {
   .contactIcons li {
     float: none;
     margin-right: 0;
@@ -477,7 +491,7 @@ header nav ul::after,
   font-weight: normal;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 700px) {
   .aboutList li {
     float: none;
     margin-right: 0;
