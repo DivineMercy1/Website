@@ -470,7 +470,7 @@ header nav ul::after,
 }
 
 .aboutList li {
-  list-style: lower-roman;
+  list-style: bullet;
   margin-right: 10px;
   font-family: "Source Code Pro", serif;
   font-size: 1em;
