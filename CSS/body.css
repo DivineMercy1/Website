@@ -94,6 +94,7 @@
   .main-area {
     width: auto;
     float: none;
+    padding: 10px 15px;
   }
 }
 
@@ -111,6 +112,7 @@
   .sidebar {
     width: auto;
     float: none;
+    padding: 10px 15px;
   }
 }
 

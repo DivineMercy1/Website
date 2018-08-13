@@ -1,5 +1,12 @@
 @import 'mixins';
 header {
+    @include smallStuff {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    @include bigStuff {
+        width: 100%;
+    }
     h1 {
         margin: 0;
         color: #fff;
@@ -39,7 +46,6 @@ header {
     padding-left: 20px;
     padding-top: 10px;
     background-color: $lightBlue;
-    width: 100%;
 }
 
 .site-nav {
