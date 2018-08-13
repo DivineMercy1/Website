@@ -13,14 +13,24 @@ html {
 
 div.tangerine {
     h2 {
-        font-family: "Tangerine", serif;
-        font-size: 2em;
+        font-family: "Merienda", serif;
+        font-size: 1.5em;
         font-weight: normal;
         margin: 0;
     }
     h1 {
-        font-family: "Tangerine", serif;
-        font-size: 3em;
+        font-family: "Merienda", serif;
+        font-size: 2.5em;
+        font-weight: normal;
+    }
+    p {
+        font-family: "Source Code Pro", serif;
+        font-size: .8em;
+        font-weight: normal;
+    }
+    a {
+        font-family: "Source Code Pro", serif;
+        font-size: 1em;
         font-weight: normal;
     }
 }
@@ -42,4 +52,5 @@ body {
 footer {
     font-size: .8em;
     text-align: center;
+    font-weight: normal;
 }

@@ -122,6 +122,10 @@ header nav a {
   background-color: #15a5d1c4;
 }
 
+header nav img {
+  width: 18px;
+}
+
 .site-nav a {
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;

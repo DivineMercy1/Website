@@ -1,14 +1,16 @@
-.group::before,
-.group::after {
+.group::before, .contactIcons ul::before, .aboutList ul::before,
+.group::after,
+.contactIcons ul::after,
+.aboutList ul::after {
   content: "";
   display: table;
 }
 
-.group:after {
+.group:after, .contactIcons ul:after, .aboutList ul:after {
   clear: both;
 }
 
-.group {
+.group, .contactIcons ul, .aboutList ul {
   zoom: 1;
 }
 
@@ -76,8 +78,8 @@
 /* End Bounce Animation */
 .main-area {
   opacity: 0;
-  animation: fadeBounce 2s forwards;
-  -webkit-animation: fadeBounce 2s forwards;
+  animation: fadeBounce 1.5s forwards;
+  -webkit-animation: fadeBounce 1.5s forwards;
   animation-delay: .5s;
   -webkit-animation-delay: .5s;
   padding: 20px 30px;
@@ -96,7 +98,6 @@
   padding: 20px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 85%;
 }
 
 .meImage {
@@ -108,6 +109,94 @@
   margin-bottom: 40px;
   border-radius: 50%;
   width: 80%;
+  height: auto;
+  margin: 0;
+}
+
+.linkToPage {
+  color: aqua;
+  cursor: pointer;
+}
+
+.contactIcons {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+
+.contactIcons ul {
+  margin: 0;
+  padding: 0;
+}
+
+.contactIcons li {
+  padding-left: 50%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .contactIcons li {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 2px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .contactIcons li {
+    margin-right: 10px;
+  }
+}
+
+.contactIcons img {
+  max-width: 100%;
+  padding-top: 50%;
+  height: auto;
+  width: auto;
+}
+
+.aboutList {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.aboutList ul {
+  margin: 0;
+  padding: 0;
+}
+
+.aboutList li {
+  list-style: lower-roman;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .aboutList li {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 2px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .aboutList li {
+    margin-right: 10px;
+  }
+}
+
+.teamImage {
+  position: relative;
+}
+
+.teamImage img {
+  line-height: 200px;
+  margin-bottom: 40px;
+  width: 100%;
   height: auto;
   margin: 0;
 }
