@@ -406,6 +406,8 @@ header nav ul::after,
     width: auto;
     float: none;
     padding: 10px 15px;
+    animation: fadeBounce 0s forwards;
+    -webkit-animation: fadeBounce 0s forwards;
   }
 }
 
@@ -424,6 +426,8 @@ header nav ul::after,
     width: auto;
     float: none;
     padding: 10px 15px;
+    animation: fadeBounce 0s forwards;
+    -webkit-animation: fadeBounce 0s forwards;
   }
 }
 
