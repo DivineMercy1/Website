@@ -28,12 +28,16 @@
     float: left;
     padding: 20px 40px;
     box-sizing: border-box;
+    
     @include smallStuff {
+        opacity: 0;
         width: auto;
         float: none;
         padding: 10px 15px;
         animation: fadeBounce 1s forwards;
         -webkit-animation: fadeBounce 1s forwards;
+        animation-delay: .5s;
+        -webkit-animation-delay: .5s;
     }
 }
 
