@@ -6,9 +6,11 @@
     animation-delay: .5s;
     -webkit-animation-delay: .5s;
     padding: 20px 30px;
+    padding-right: 40px;
     width: 66%;
     float: left;
     padding-right: 40px;
+    padding-bottom: 140px;
     box-sizing: border-box;
     @include smallStuff {
         width: auto;
@@ -25,10 +27,10 @@
     animation: fadeBounce 2s forwards;
     -webkit-animation: fadeBounce 2s forwards;
     width: 34%;
-    float: left;
-    padding: 20px 40px;
+    float: right;
+    padding: 5px 10px;
     box-sizing: border-box;
-    
+
     @include smallStuff {
         opacity: 0;
         width: auto;

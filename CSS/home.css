@@ -397,6 +397,7 @@ header nav ul::after,
   width: 66%;
   float: left;
   padding-right: 40px;
+  padding-bottom: 140px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -417,8 +418,8 @@ header nav ul::after,
   animation: fadeBounce 2s forwards;
   -webkit-animation: fadeBounce 2s forwards;
   width: 34%;
-  float: left;
-  padding: 20px 40px;
+  float: right;
+  padding: 5px 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
