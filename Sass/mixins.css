@@ -74,4 +74,30 @@
 }
 
 /* End Bounce Animation */
+/* Fade-in Animation */
+@-webkit-keyframes fadeBounce {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeBounce {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* End Bounce Animation */
 /*# sourceMappingURL=mixins.css.map */
