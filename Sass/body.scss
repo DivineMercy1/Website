@@ -30,6 +30,7 @@
     float: right;
     padding: 5px 10px;
     box-sizing: border-box;
+    text-align: center;
 
     @include smallStuff {
         opacity: 0;
@@ -124,5 +125,16 @@
         width: 100%;
         height: auto;
         margin: 0;
+    }
+}
+.csImage {
+    position: relative;
+    img {
+        line-height: 200px;
+        margin-bottom: 40px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 }

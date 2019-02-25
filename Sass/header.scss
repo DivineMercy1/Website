@@ -59,6 +59,15 @@ header {
         background-color: #000;
         transform: scale(1.2);
     }
+    li {
+        div {
+            div {
+                a {
+                    background-color: $darkerBlueFull;
+                }
+            }
+        }
+    }
 }
 
 footer {
