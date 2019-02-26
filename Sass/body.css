@@ -76,6 +76,26 @@
 }
 
 /* End Bounce Animation */
+/* Fade-in Animation */
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* End Fade-in Animation */
 .main-area {
   opacity: 0;
   animation: fadeBounce 1.5s forwards;

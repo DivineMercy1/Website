@@ -62,6 +62,7 @@ body {
     .column {
         float:left;
         width: 50%;
+        animation: fadeIn .5s;
     }
 }
 .dropdown-content a {
