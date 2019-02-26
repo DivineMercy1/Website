@@ -1,10 +1,8 @@
 @import 'mixins';
 .main-area {
     opacity: 0;
-    animation: fadeBounce 1.5s forwards;
-    -webkit-animation: fadeBounce 1.5s forwards;
-    animation-delay: .5s;
-    -webkit-animation-delay: .5s;
+    animation: fadeBounce 1.3s forwards;
+    -webkit-animation: fadeBounce 1.3s forwards;
     padding: 20px 30px;
     padding-right: 40px;
     width: 66%;
@@ -18,14 +16,12 @@
         padding: 10px 15px;
         animation: fadeBounce 1s forwards;
         -webkit-animation: fadeBounce 1s forwards;
-        animation-delay: 0s;
-        -webkit-animation-delay: 0s;
     }
 }
 
 .sidebar {
-    animation: fadeBounce 2s forwards;
-    -webkit-animation: fadeBounce 2s forwards;
+    animation: fadeBounce 1.5s forwards;
+    -webkit-animation: fadeBounce 1.5s forwards;
     width: 34%;
     float: right;
     padding: 5px 10px;
@@ -67,6 +63,10 @@
         @extend .group;
         margin: 0;
         padding: 0;
+        @include smallStuff {
+            margin: 0 auto;
+            padding-inline-start: 40px;
+        }
     }
     li {
         padding-left: 50%;
@@ -76,9 +76,7 @@
         margin-right: 10px;
         text-align: center;
         @include smallStuff {
-            float: none;
-            margin-right: 0;
-            margin-bottom: 2px;
+            padding-left: 0%;
         }
         @include bigStuff {
             margin-right: 10px;
@@ -89,6 +87,9 @@
         padding-top: 50%;
         height: auto;
         width: auto;
+        @include smallStuff {
+            padding-top: 10%;
+        }
     }
     position: relative;
 }

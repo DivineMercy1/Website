@@ -87,27 +87,21 @@ $darkerBlueFull: #15a5d1;
 /* End Bounce Animation */
 
 /* Fade-in Animation */
-@-webkit-keyframes fadeBounce {
+@-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
-  }
-  50% {
-    opacity: .6;
   }
   100% {
     opacity: 1;
   }
 }
 
-@keyframes fadeBounce {
+@keyframes fadeIn {
   0% {
     opacity: 0;
-  }
-  50% {
-    opacity: .6;
   }
   100% {
     opacity: 1;
   }
 }
-/* End Bounce Animation */
+/* End Fade-in Animation */
