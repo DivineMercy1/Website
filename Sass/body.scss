@@ -8,7 +8,7 @@
     width: 66%;
     float: left;
     padding-right: 40px;
-    padding-bottom: 140px;
+    padding-bottom: 40vh;
     box-sizing: border-box;
     @include smallStuff {
         width: auto;
@@ -16,6 +16,9 @@
         padding: 10px 15px;
         animation: fadeBounce 1s forwards;
         -webkit-animation: fadeBounce 1s forwards;
+    }
+    @include bigStuff {
+        padding-bottom: 25vh;
     }
 }
 
@@ -112,7 +115,7 @@
             margin-right: 10px;
         }
             font-family: "Source Code Pro", serif;
-            font-size: 1em;
+            /*font-size: 1em; */
             font-weight: normal;
     }
     box-sizing: border-box;

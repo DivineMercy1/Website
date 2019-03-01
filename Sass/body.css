@@ -105,7 +105,7 @@
   width: 66%;
   float: left;
   padding-right: 40px;
-  padding-bottom: 140px;
+  padding-bottom: 40vh;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -117,6 +117,12 @@
     padding: 10px 15px;
     animation: fadeBounce 1s forwards;
     -webkit-animation: fadeBounce 1s forwards;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .main-area {
+    padding-bottom: 25vh;
   }
 }
 
@@ -230,7 +236,7 @@
   list-style: bullet;
   margin-right: 10px;
   font-family: "Source Code Pro", serif;
-  font-size: 1em;
+  /*font-size: 1em; */
   font-weight: normal;
 }
 
