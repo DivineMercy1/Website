@@ -163,6 +163,7 @@ header nav img {
   transition-property: color, background-color;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
+  background-color: #15a5d1;
 }
 
 .site-nav a:hover {

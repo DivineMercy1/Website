@@ -22,6 +22,38 @@
     }
 }
 
+button {
+    background-color: $darkerBlue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    left: 33%;
+    position: relative;
+    transition-property: color, background-color;
+    transition-duration: 1s;
+    background-color: $darkerBlueFull;
+    @include smallStuff {
+        float: none;
+        left: 15%;
+        margin-right: 0;
+        margin-bottom: 2px;
+    }
+    @include bigStuff {
+        margin-right: 10px;
+    }
+    
+}
+
+button:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    transform: scale(1.2);
+}
 .sidebar {
     animation: fadeBounce 1.5s forwards;
     -webkit-animation: fadeBounce 1.5s forwards;

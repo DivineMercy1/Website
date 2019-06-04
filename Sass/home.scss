@@ -29,6 +29,10 @@ div.tangerine {
         font-family: "Source Code Pro", serif;
         font-weight: normal;
     }
+    button {
+        font-family: "Source Code Pro", serif;
+        font-weight: normal;
+    }
 }
 
 body {
@@ -78,8 +82,10 @@ body {
     clear: both;
   }
 
+
 @import 'header';
 @import 'body';
+
 footer {
     font-size: .8em;
     text-align: center;

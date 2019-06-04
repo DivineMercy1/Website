@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda|Source+Code+Pro">
     <link rel="stylesheet" type="text/css" href="/Sass/home.css">
     <meta name="viewport" content="width = device-width, initial-scale =1">
+    <script src = "functionality.js"></script>
 </head>
 
 <body>
@@ -73,17 +74,12 @@
             <div class="main-area">
                 <h2>What am I currently working on?</h2>
                 <p>
-                    A bunch of things. Recently I've been working on gameplay development, enhancement, and AI
-                    programming for my internship
-                    at The Beamer - you can check out my video recordings of development in progress
-                    <a href="https://drive.google.com/open?id=0Bxu9uuAwtNIjbDg0V2ZFYmwyR1k">here</a>.
-                    At ISO New England I created tools for automation and overhauling existing tools to
-                    expand their functionality and usability. Moreover, I've been maintaining and adding to a database I
-                    created at Carling Technologies. Most recently I began a new database project that will completely
-                    overhaul
-                    tool management, part number creation, and process documentation.
-                    When I'm not working, I like to teach myself whatever I can - not just
-                    programming or computer science topics.
+                    Currently I am working at The Beamer LLC. and I just started my internship at <a href = "https://www.thehartford.com/">
+                    The Hartford</a> as a Software Development Engineer in Test (SDET). I plan on making sizable contributions 
+                    to the company while learning about a whole new sector of software engineering that I was originally oblivious 
+                    to. Throughout the summer I will learn about test automation using Gherkin, Jenkins, and Selenium powered by 
+                    Java.
+                   
                 </p>
                 <p>
                     As a current side project, I have been working on a complete remake of my "map-app" I made for Sgt.
@@ -94,25 +90,51 @@
                     have time to
                     dedicate towards it).
                 </p>
-                <h2>What do I do?</h2>
+                <h2>What am I up to?</h2>
                 <p>
-                    Essentially, I work, I study, I sleep. For the past 4 years or so I've been deeply involved with
-                    teaching myself
-                    and working. Currently, I'm working for a few companies. This summer I interned for
-                    <a href="https://www.iso-ne.com/">ISO New England</a> as an OPTI Engineering Intern increasing
-                    efficiency throughout
-                    the company. I also intern for
-                    <a href="http://www.carlingtech.com/">Carling Technologies</a> developing extensive databases, and
-                    for
-                    <a href="http://thebeamer.com/">The Beamer LLC</a> creating AI or implementing gameplay aspects, and
-                    have been for
-                    the past two years or so. During the school year I also work for
-                    <a href="http://sgt-peps.com/">Sgt. Pepperoni</a> delivering pizza to college drunks or study
-                    buddies until 3AM
-                    every Friday and Saturday, every weekend. Note that at any one time, I'm working at least two of
-                    these jobs. My life consists of
-                    the following: sleep &#8594 work/school &#8594 work/homework &#8594 eating &#8594 sleep.
+                    As of summer 2019, I am finishing my studies at school, with CAMS 1103 (classical mythology), and a 
+                    stats course at Tunxis CC to recieve my degree. I am interning at The Hartford while still working 
+                    part-time at The Beamer (which you can read more about below), and also pursuing some interests of my own.
+                    Currently I am trying to purchase a new car (Mazda CX-5 Grand-Touring Reserve) and properly assess my 
+                    financial obligations - most of which are taken care of. I am currently dating my "college sweetheart" 
+                    who you can check out <a href = "http://www.hallardraucci.com/"> here</a>. Ironically, we have the same 
+                    degree!
                 </p>
+                <button onclick="hidePast()">What did I do in the past?</button>
+                <div id = "old1" style ="display: none;">
+                    <h2>What do I do in college?</h2>
+                    <p>
+                        Essentially, I worked, I studied, I slept. From 2015-2019 I've been deeply involved with
+                        teaching myself
+                        and working. Back then, I worked for a few companies. In summer 2018 I interned for
+                        <a href="https://www.iso-ne.com/">ISO New England</a> as an OPTI Engineering Intern increasing
+                        efficiency throughout
+                        the company. 
+                        At ISO New England I created tools for automation and overhauling existing tools to
+                        expand their functionality and usability. Moreover, I've been maintaining and adding to a database I
+                        created at Carling Technologies. I also interned for
+                        <a href="http://www.carlingtech.com/">Carling Technologies</a> developing extensive databases.   
+                        Most recently I began a new database project that will completely
+                        overhaul tool management, part number creation, and process documentation. Moreover, I worked for
+                        <a href="http://thebeamer.com/">The Beamer LLC</a> creating AI or implementing gameplay aspects, and
+                        have been from 2017 to now. During the school year I also worked for
+                        <a href="http://sgt-peps.com/">Sgt. Pepperoni</a> delivering pizza to college drunks or study
+                        buddies until 3AM
+                        every Friday and Saturday, every weekend. Note that at any one time, I'm working at least two of
+                        these jobs. My life consists of
+                        the following: sleep &#8594 work/school &#8594 work/homework &#8594 eating &#8594 sleep. 
+                    </p>
+                    <p>
+                        In my senior year of college I had a senior design project where I worked for 
+                        <a href = "https://www.rfsworld.com/"> RFS Meriden</a> performing predictive maintenance on their
+                        manufacturing lines through machine learning. With the use of Python, Power BI, and MYSQL, we 
+                        accurately predicted downtime 7/7 times for the duration of the project. You can check out the 
+                        poster we had for the project here. Moreover, we won second place for Senior Design in CSE. If you 
+                        would like to check out the senior design booklet, click <a href="https://www.engr.uconn.edu/large-files/pdf/UCONN-Senior-Design-2019.pdf">here</a>. 
+                        If you would like to check out the 
+                        winners, click <a href ="https://seniordesign.engr.uconn.edu/2019-computer-science-and-engineering-winners/">here</a>.
+                    </p>
+                </div>
             </div>
             <aside class="sidebar">
                 <h2>Who am I?</h2>
@@ -121,12 +143,14 @@
                 </div>
                 <p>
                     Well for starters, my name is Jonathan Simonin and I'm currently located in the small state of
-                    Connecticut. I'm currently
-                    enrolled at the University of Connecticut studying Computer Science and Engineering (CSE), and also
-                    minoring
-                    in mathematics. My graduation date is set for Summer 2019. Ever since I was a kid I was enthralled
-                    by computers, and I still am.
+                    Connecticut. I'm currently enrolled at the University of Connecticut studying Computer Science 
+                    and Engineering (CSE), and also minoring in mathematics. My graduation date is set for Summer 
+                    2019. Ever since I was a kid I was enthralled by computers, and I still am.
                 </p>
+                <div  id = "old2" class="teamImage" style ="display: none;">
+                    <h2>Demo Day Spring, 2019</h2>
+                    <img src="/Images/poster.jpg">
+                </div>
             </aside>
         </div>
         <footer>
